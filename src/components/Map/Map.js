@@ -33,10 +33,6 @@ const Map = ({ data, selectedCountry, mapZoom, setMapZoom }) => {
 		setMapZoom({ ...mapZoom, zoom: viewport.zoom });
 	};
 
-	useEffect(() => {
-		console.log('viewport: ', viewport.zoom);
-	}, [viewport]);
-
 	const handleClick = country => {
 		const { lat, long } = country.countryInfo;
 
