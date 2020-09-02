@@ -1,0 +1,10 @@
+.zoomControl__root {
+	display: flex;
+	flex-direction: column;
+	top: 1rem;
+	left: 1rem;
+	z-index: 1000;
+	height: fit-content;
+	min-width: 30px;
+	margin-right: 1rem;
+}

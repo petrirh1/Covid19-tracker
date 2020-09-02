@@ -1,0 +1,41 @@
+.casesCard__root {
+	z-index: 3000;
+	margin-left: 1rem;
+	min-width: 365px;
+	min-height: 112px;
+}
+
+.casesCard__header {
+	margin-bottom: 1.5rem;
+}
+
+.casesCard__container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.casesCard__container > div {
+	width: 100%;
+	padding: 0.375rem 0.625rem;
+}
+
+.casesCard__container > div:nth-child(odd) {
+	background: rgba(0, 0, 0, 0.02);
+	margin: 0.625rem;
+}
+
+.casesCard__dataGroup {
+	display: flex;
+	justify-content: space-between;
+}
+
+.casesCard__dataGroup div {
+	width: 40%;
+}
+
+.casesCard__dataGroup > div:nth-child(even) {
+	display: flex;
+	flex-direction: column;
+	text-align: right;
+}
