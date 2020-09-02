@@ -42,7 +42,7 @@ const InfoPopup = ({ data, handlePopupClose }) => {
 };
 
 InfoPopup.propTypes = {
-	data: PropTypes.array,
+	data: PropTypes.object,
 	handlePopupClose: PropTypes.func
 };
 
